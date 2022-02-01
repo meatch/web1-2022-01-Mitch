@@ -28,6 +28,13 @@ const Essays = () => {
                 </ul>
             </Essay>
             <Essay q='S5. What is the difference between Web Designer, Front End Developer and Back End Developer?'>
+                <ul>
+                    <li><b>Web Designer:</b> Answer</li>
+                    <li><b>Front End Developer:</b> Answer</li>
+                    <li><b>Back End Developer:</b> Answer</li>
+                </ul>
+            </Essay>
+            <Essay q='S6. Distinguish the difference between Site Relative, Document Relative, and Absolute Paths.'>
                 <p>Answer will go here for Monday.</p>
             </Essay>
         </EssaysStyled>

@@ -1,13 +1,24 @@
 import React from 'react';
 import styled from 'styled-components';
 
+/* Scripts ---------------------------*/
+import { useMediaQuery } from 'React/common/useMediaQuery.js';
+
+/* Components ---------------------------*/
+import Hamburger from './Hamburger.jsx';
 import MainMenu from './MainMenu.jsx';
 
 const Nav = () => {
 
+    const { media } = useMediaQuery();
+
     return (
         <NavStyled className='Nav'>
-            <MainMenu /> 
+            {
+                !media.mdUp && 
+                <Hamburger />
+            }
+            <MainMenu />
         </NavStyled>
     );
 }

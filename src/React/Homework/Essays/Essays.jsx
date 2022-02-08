@@ -44,6 +44,9 @@ const Essays = () => {
             <Essay q='What is the difference between jpg, gif, png and SVG images?'>
                 <p>Answer will go here for Monday.</p>
             </Essay>
+            <Essay q='Define the following roles: Project Manager, Business Analyst, Scrum Master, UX designer, Web Developer/Engineer, Quality Assurance Tester, and DevOps.'>
+                <p>Answer will go here for Thursday.</p>
+            </Essay>
         </EssaysStyled>
     )
 }

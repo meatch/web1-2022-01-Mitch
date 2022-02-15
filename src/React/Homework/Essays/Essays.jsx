@@ -62,6 +62,9 @@ const Essays = () => {
                 </ul>
             </Essay>
             <Essay q='What is considered the right size for an image or video asset?'>
+                <p>Trick question, whatever size will give us the fastest download without compromising quality.</p>
+            </Essay>
+            <Essay q='What does it mean for a company to be Agile? What are the pros and cons of being agile?'>
                 <p>Answer will go here for Thursday.</p>
             </Essay>
         </EssaysStyled>

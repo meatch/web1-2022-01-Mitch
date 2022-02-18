@@ -65,7 +65,18 @@ const Essays = () => {
                 <p>Trick question, whatever size will give us the fastest download without compromising quality.</p>
             </Essay>
             <Essay q='What does it mean for a company to be Agile? What are the pros and cons of being agile?'>
-                <p>Answer will go here for Thursday.</p>
+                <h4>Agile Means</h4>
+                <p>Methodology allowing for more flexible rapid sprints - using an interative process. Adjust and change requirements as they shift in real time.</p>
+
+                <h4>Pros and Cons</h4>
+                <ul>
+                    <li>More predictable</li>
+                    <li>Turnaround and flexibility is is easier to manage</li>
+                    <li>Consistent team - managing process - keeping on sprints and deadlines.</li>
+                </ul>
+            </Essay>
+            <Essay q='What are testing environments? What is the difference between Local, Dev, QA and Production?'>
+                <p>Answer will go here for Monday.</p>
             </Essay>
         </EssaysStyled>
     )

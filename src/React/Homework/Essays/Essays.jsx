@@ -41,7 +41,7 @@ const Essays = () => {
                     <li><b>Absolute Paths:</b> Fully resolved URL to a resource.</li>
                 </ul>
             </Essay>
-            <Essay q='What is the difference between jpg, gif, png and SVG images?'>
+            <Essay q='S7. What is the difference between jpg, gif, png and SVG images?'>
                 <ul>
                     <li><b>JPG:</b> Millions of color: Joint Photographic Experts Group: Lossy compression, s, can make for small files at the expense of quality</li>
                     <li><b>GIF:</b> Indexed Color: Logos, graphics - Graphic Interface Format: 256 total colors, animation is supported, transparency</li>
@@ -49,7 +49,7 @@ const Essays = () => {
                     <li><b>SVG:</b> Scaleable Vector Graphics: Animation, Lighter files due to vector, can also add images if necessary, without images scale without loss of quality.</li>
                 </ul>
             </Essay>
-            <Essay q='Define the following roles: Project Manager, Business Analyst, Scrum Master, UX designer, Web Developer/Engineer, Quality Assurance Tester, and DevOps.'>
+            <Essay q='S8. Define the following roles: Project Manager, Business Analyst, Scrum Master, UX designer, Web Developer/Engineer, Quality Assurance Tester, and DevOps.'>
                 <ul>
                     <li><b>Project Manager:</b> Responsible for the entire project. Scope/Goals, and Orchestrating the team to meet deadlines. </li>
                     <li><b>Business Analyst:</b> Works with client to defined deliverables, understanding client. They make the promises. </li>
@@ -61,10 +61,10 @@ const Essays = () => {
 
                 </ul>
             </Essay>
-            <Essay q='What is considered the right size for an image or video asset?'>
+            <Essay q='S9. What is considered the right size for an image or video asset?'>
                 <p>Trick question, whatever size will give us the fastest download without compromising quality.</p>
             </Essay>
-            <Essay q='What does it mean for a company to be Agile? What are the pros and cons of being agile?'>
+            <Essay q='S10. What does it mean for a company to be Agile? What are the pros and cons of being agile?'>
                 <h4>Agile Means</h4>
                 <p>Methodology allowing for more flexible rapid sprints - using an interative process. Adjust and change requirements as they shift in real time.</p>
 
@@ -75,8 +75,19 @@ const Essays = () => {
                     <li>Consistent team - managing process - keeping on sprints and deadlines.</li>
                 </ul>
             </Essay>
-            <Essay q='What are testing environments? What is the difference between Local, Dev, QA and Production?'>
-                <p>Answer will go here for Monday.</p>
+            <Essay q='S11. What are testing environments? What is the difference between Local, Dev, QA and Production?'>
+                <p>A testing environment is: Space developers deploy there work for testing their work.</p>
+
+                <ul>
+                    <li><b>Local:</b> Developer's Machine - to build and test your own code on your computer.</li>
+                    <li><b>Dev:</b> Dev Testing Server: Dev Paired Code reviews.</li>
+                    <li><b>QA:</b> Quality Assurance Testing Server for QA team.</li>
+                    <li><b>UAT:</b> User Acceptance Testing Server for Customer to test.</li>
+                    <li><b>Production:</b> Live website for users to access - public domain</li>
+                </ul>
+            </Essay>
+            <Essay q='S12. Function vs Form: When are web images considered part of the content (HTML) as opposed to part of the appearance (CSS)?'>
+                <p>Answer will go here for Thursday.</p>
             </Essay>
         </EssaysStyled>
     )

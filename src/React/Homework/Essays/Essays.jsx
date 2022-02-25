@@ -87,7 +87,11 @@ const Essays = () => {
                 </ul>
             </Essay>
             <Essay q='S12. Function vs Form: When are web images considered part of the content (HTML) as opposed to part of the appearance (CSS)?'>
-                <p>Answer will go here for Thursday.</p>
+                <p>Printable is good in HTML, CSS by default is off - as background image.</p>
+                <p>HTML if image is related to content</p>
+            </Essay>
+            <Essay q="S13. What is the difference between ID's, Classes and Tags? How does Specificity play a role in the selection of HTML elements (both in CSS and JS)">
+                <p>Answer will go here for Monday.</p>
             </Essay>
         </EssaysStyled>
     )

@@ -24,6 +24,7 @@ const SunAndMoon = () => {
                 src={ theImageSrc } 
                 onMouseOver={ changeToMoon }
                 onMouseOut={ changeToSun }
+                alt='Add additional info about the image'
             />
 
             <h3>{ theDesc }</h3>

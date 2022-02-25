@@ -29,5 +29,9 @@ const EssayStyled = styled.div`
     .answer {
         background-color: white;
         padding: 20px;
+        /* 
+        background-image: url('/assets/img/sun.png');
+        background-repeat: no-repeat;
+        background-position: center center; */
     }
 `;

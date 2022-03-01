@@ -91,7 +91,16 @@ const Essays = () => {
                 <p>HTML if image is related to content</p>
             </Essay>
             <Essay q="S13. What is the difference between ID's, Classes and Tags? How does Specificity play a role in the selection of HTML elements (both in CSS and JS)">
-                <p>Answer will go here for Monday.</p>
+                <ul>
+                    <li id="timbuktu"><b>ID:</b> Label: We use pound sign (#) in CSS and JS, Singular - should only label one HTML element on a page.</li>
+                    <li id="timbukthree" className="myBorder"><b>Classes:</b> Label: We use the period (.) in CSS and JS, Defines a series; Multiple HTML elements.</li>
+                    <li className="myBorder secondaryClass"><b>Tag:</b> Any HTML tag in the HTML language. </li>
+                    <li className="myBorder"><b>Specificity:</b> Determines which selector and rule applies to an element. </li>
+                </ul>
+
+            </Essay>
+            <Essay q="S14. What is a CSS Preprocessor? What are some examples? In React, what are styled components? How do Styled Components violate separation of concerns?">
+                <p>Answer will go here for Thursday.</p>
             </Essay>
         </EssaysStyled>
     )
@@ -102,4 +111,19 @@ export default Essays;
 const EssaysStyled = styled.div`
     background-color: white;
     padding: 20px;
+
+/* 
+    #timbukthree {
+        background-color: orange;
+    }
+
+    li {
+        background-color: purple;
+    }
+    li {
+        background-color: yellow;
+    }
+
+    .myBorder { border: solid 2px red; } */
+
 `;

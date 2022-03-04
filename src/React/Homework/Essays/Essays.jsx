@@ -100,7 +100,21 @@ const Essays = () => {
 
             </Essay>
             <Essay q="S14. What is a CSS Preprocessor? What are some examples? In React, what are styled components? How do Styled Components violate separation of concerns?">
-                <p>Answer will go here for Thursday.</p>
+                <ul>
+                    <li><b>What is a CSS Preprocessor?: Turns CSS into Programming language to parsing variables and functions - etc.</b> </li>
+                    <li><b>What are some examples?:</b> Sass, Less, Stylus</li>
+                    <li><b>In React, what are styled components?:</b> React library - can add styles directly in compents. The evolution of CS Preprocessors. Backticks - template strings</li>
+                    <li>
+                        <b>How do Styled Components violate separation of concerns?:</b> 
+                        Separation of concerns means: 
+                            CSS for Appearance, 
+                            JS for Behavior 
+                            HTML for content 
+                    </li>
+                </ul>
+            </Essay>
+            <Essay q="S15. Final Project Essays goes here:">
+                <p>Answer will go here for Monday.</p>
             </Essay>
         </EssaysStyled>
     )

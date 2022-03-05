@@ -15,14 +15,16 @@ const Form = ({children}) => {
     }
 
     return (
-        <FormStyled className='Form' onSubmit={ handleSubmit }>
-            { children } 
+        <FormStyled className='Form'>
+            <form novalidate="novalidate" onSubmit={ handleSubmit }>
+                { children } 
+            </form>
         </FormStyled>
     );
 }
 
 export default Form;
 
-const FormStyled = styled.form`
+const FormStyled = styled.div`
     
 `;

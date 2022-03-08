@@ -105,16 +105,20 @@ const Essays = () => {
                     <li><b>What are some examples?:</b> Sass, Less, Stylus</li>
                     <li><b>In React, what are styled components?:</b> React library - can add styles directly in compents. The evolution of CS Preprocessors. Backticks - template strings</li>
                     <li>
-                        <b>How do Styled Components violate separation of concerns?:</b> 
-                        Separation of concerns means: 
-                            CSS for Appearance, 
-                            JS for Behavior 
-                            HTML for content 
+                        <b>How do Styled Components violate separation of concerns?:</b>
+                        Separation of concerns means:
+                            HTML for content,
+                            CSS for Appearance,
+                            and
+                            JS for Behavior
                     </li>
                 </ul>
             </Essay>
             <Essay q="S15. Final Project Essays goes here:">
-                <p>Answer will go here for Monday.</p>
+                <p>Each Student provides their own here.</p>
+            </Essay>
+            <Essay q="S16. What is the difference between Web Hosts, Domains, and FTP?">
+                <p>Answer will go here for Thursday.</p>
             </Essay>
         </EssaysStyled>
     )
@@ -126,7 +130,7 @@ const EssaysStyled = styled.div`
     background-color: white;
     padding: 20px;
 
-/* 
+/*
     #timbukthree {
         background-color: orange;
     }

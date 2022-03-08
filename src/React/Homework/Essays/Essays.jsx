@@ -118,7 +118,7 @@ const Essays = () => {
                 <p>Each Student provides their own here.</p>
             </Essay>
             <Essay q="S16. What is the difference between Web Hosts, Domains, and FTP?">
-                <p>Answer will go here for Thursday.</p>
+                <p>Answer will go here for Thursday another change.</p>
             </Essay>
         </EssaysStyled>
     )
